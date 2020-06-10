@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0", :tvos => "10.0" }
-  s.source       = { :git => "https://github.com/Emurgo/react-native-chain-libs.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/Emurgo/react-native-chain-libs.git", :tag => "#{s.version}" }
 
   s.module_name = 'ChainLibs'
 
